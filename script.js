@@ -1,5 +1,14 @@
 // Your Script here.
 
+for (let i = 0; i < encodedStr.length; i++) {
+  // Inside this loop, you can access each character using encodedStr[i]
+}
+
+let char = encodedStr[i];
+let decodedChar = lookup[char];
+decodedArr.push(decodedChar);
+
+return decodedArr.join('');
 const lookup = {
   A: "N",
   B: "O",
